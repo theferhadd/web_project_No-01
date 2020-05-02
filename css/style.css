@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{background-color: black;}
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+.background_image img{
+	width: 78%;
+    height: 718px;
+}
+.background_image{
+	background-color: black;
+}
+.description{
+	position: absolute;
+	font-size: 20px;
+	left: 100px;
+	top: 162px;
+	color: white;
+}
+.description p:nth-child(1) {
+  font-family: 'Fredoka One', cursive;
+
+  font-size: 55px;
+  width: 444px;
+}
+.description p:nth-child(2) {
+  margin-top: 15px;
+  font-size: 16px;
+  width: 444px;
+  font-family: 'Assistant', sans-serif;
+}
+.upgrade {
+    position: absolute;
+    top: 95px;
+    left: 887px;
+    background-color: red;
+    width: 502px;
+    height: 39px;
+    border-radius: 7px;
+    padding-left: 110px;
+    padding-top: 10px;
+    box-shadow: 0px 4px 10px #c3c3c3;
+}
+.upgrade span{
+	width: 400px;
+	font-weight: bold;
+	display: inline;
+}
+.upgrade p{
+display: inline-block;
+font-size: 16px;
+}
+.register {
+    background-color: white;
+    position: absolute;
+    top: 180px;
+    left: 896px;
+    width: 487px;
+    height: 462px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px #c3c3c3;
+}
+.register input{
+	padding-left: 20px;
+	display: block;
+    width: 400px;
+    height: 42px;
+    margin-top: 28px;
+    margin-left: 37px;
+    border-radius: 8px;
+    box-shadow: none !important;
+    border: 1px solid black !important;
+}
+button{
+	width: 402px;
+	height: 50px;
+	background-color: red;
+	margin-left: 36px!important;
+	margin-top: 30px!important;
+}
+.end span{
+	width: 400px;
+	font-weight: bold;
+	display: inline;
+	font-size: 14px;
+	color: red;
+}
+.end p{
+display: inline-block;
+font-size: 14px;
+color: grey;
+}
+.end{
+	margin-top: 15px;
+	margin-left: 25px;
+}
