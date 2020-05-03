@@ -59,7 +59,7 @@ font-size: 16px;
     left: 896px;
     width: 487px;
     height: 462px;
-    border-radius: 8px;
+    border-radius: 34px;
     box-shadow: 0px 4px 10px #c3c3c3;
 }
 .register input{
@@ -69,7 +69,7 @@ font-size: 16px;
     height: 42px;
     margin-top: 28px;
     margin-left: 37px;
-    border-radius: 8px;
+    border-radius: 13px;
     box-shadow: none !important;
     border: 1px solid black !important;
 }
@@ -79,6 +79,7 @@ button{
 	background-color: red;
 	margin-left: 36px!important;
 	margin-top: 30px!important;
+  border-radius: 13px;
 }
 .end span{
 	width: 400px;
