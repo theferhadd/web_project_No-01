@@ -1,14 +1,14 @@
  @media only screen and (max-width:641px){
- 	.background_image img{
-	width: 100rem;
-    height: 768px;
-    }
+ 	body {
+ background-image: url("../images/bg-intro-mobile.png");
+ background-color: rgb(255, 102, 102)!important;
+}
  }
   @media only screen and (max-width:361px){
- 	.background_image img{
-	width: 130rem;
-    height: 718px;
-    }
+ 	body {
+ background-image: url("../images/bg-intro-mobile.png");
+ background-color: rgb(255, 102, 102)!important;
+}
     .description p:nth-child(1) {
   font-size: 122px;
     width: 123rem;
@@ -29,6 +29,7 @@
     .register input{
     	width: 112rem;
     	height: 19rem;
+        font-size: 40px;
     }
     .upgrade{
     	width: 120rem;
@@ -40,6 +41,7 @@
     }
     .upgrade span{
          margin-left: -60px;
+         font-size: 53px;
     }
     button{
         width: 112rem;
